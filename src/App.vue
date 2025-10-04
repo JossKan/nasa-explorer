@@ -56,6 +56,7 @@ export default {
 
     // Agregar manejador de clic para etiquetas
     // this.viewer.addHandler('canvas-click', this.onCanvasClick);
+    this.viewer.addHandler('canvas-contextmenu', this.onCanvasRightClick);
 
     // Cargar etiquetas guardadas
     this.viewer.addHandler('open', () => {
@@ -63,7 +64,7 @@ export default {
     });
   },
   methods: {
-    onCanvasClick(event) {
+    onCanvasRightClick(event) {
       let comment = prompt("¿Qué has encontrado? (Ej: Posible supernova, galaxia espiral)");
       if (!comment) return;
 
