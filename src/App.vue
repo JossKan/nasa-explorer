@@ -108,7 +108,6 @@ export default {
 }
 </script>
 
-
 <template>
   <div>
     <!-- Fondo del espacio con transición de blur -->
