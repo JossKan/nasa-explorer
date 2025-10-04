@@ -9,10 +9,10 @@
       <h3>Menú</h3>
       <nav>
         <ul>
-          <li><a href="#">Opción 1</a></li>
-          <li><a href="#">Opción 2</a></li>
-          <li><a href="#">Opción 3</a></li>
-          <li><a href="#">Opción 4</a></li>
+          <li><a href="#">Marcadores</a></li>
+          <li><a href="#">Comparar</a></li>
+          <li><a href="#">Descargar</a></li>
+          <li><a href="#">Despues</a></li>
         </ul>
       </nav>
     </aside>
